@@ -30,3 +30,4 @@ php artisan migrate --seed
 
 ⚠️ **Warning:** Make sure to update your `.env` file with the correct credentials.
 ⚠️ **Warning:** You can use `<base-url>/dash/test/notification` to test the low stock notification.
+⚠️ **Warning:** Dashboard credentials are required. You can use `email: admin@alyaseen.com | password: password`.
