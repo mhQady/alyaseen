@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "tajawal";
+    src: url("tajawal-regular.ttf") format("truetype"),
+        url("tajawal-regular.woff2") format("woff2"),
+        url("tajawal-regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}

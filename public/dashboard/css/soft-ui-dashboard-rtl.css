@@ -1,0 +1,176 @@
+body {
+    overflow-x: hidden;
+}
+
+.breadcrumb.rtl {
+    margin-left: 4rem !important;
+    margin-right: unset !important;
+}
+
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: unset;
+    padding-right: 0.5rem;
+}
+
+/* .breadcrumb-item + .breadcrumb-item::before {
+    padding-right: unset;
+} */
+
+.text-start.rtl {
+    text-align: right !important;
+}
+
+.text-end.rtl {
+    text-align: left !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::after {
+    padding-left: 0.5rem;
+}
+
+.rtl.dropdown-menu {
+    text-align: right;
+}
+
+.flip-horizontally {
+    transform: scaleX(-1);
+}
+
+.dataTable-sorter {
+    text-align: right;
+}
+
+.dataTable-sorter::before,
+.dataTable-sorter::after {
+    right: unset;
+    left: 0;
+}
+
+.rtl .me-2 {
+    margin-right: unset !important;
+    margin-left: 0.5rem !important;
+}
+
+.rtl .float-end {
+    float: left !important;
+}
+
+.choices[data-type*="select-one"]:after {
+    right: unset;
+    left: 13.5px;
+}
+
+.choices[data-type*="select-one"] .choices__button {
+    right: unset;
+    left: 28px;
+}
+
+@media (min-width: 576px) {
+    .me-sm-1 {
+        margin-right: unset !important;
+        margin-left: 0.25rem !important;
+    }
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    line-height: 200px;
+    border-radius: 50%;
+    /* the magic */
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 auto 40px;
+}
+
+.green {
+    background-color: #16a085;
+}
+
+.red {
+    background-color: #e74c3c;
+}
+
+.form-select {
+    background-position: left 0.75rem center;
+}
+
+.alert-dismissible .btn-close {
+    right: unset;
+    left: 0;
+}
+
+.end-0 {
+    left: 0 !important;
+    right: unset !important;
+}
+
+.start-0 {
+    right: 0 !important;
+    left: unset !important;
+}
+
+.was-validated .form-control:invalid,
+.form-control.is-invalid {
+    padding-right: inherit;
+
+    background-position: left 0.75rem center;
+}
+
+.was-validated textarea.form-control:invalid,
+textarea.form-control.is-invalid {
+    /*background-position: left 0.75rem center;*/
+    padding-right: 0.75rem;
+    background-position: top 0.75rem left 0.75rem;
+}
+
+dd {
+    margin-bottom: 0.5rem;
+    margin-right: 0;
+}
+
+
+.ps--active-x>.ps__rail-x,
+.ps--active-y>.ps__rail-y {
+    display: none !important;
+}
+
+.ps .ps__rail-x:hover,
+.ps .ps__rail-y:hover,
+.ps .ps__rail-x:focus,
+.ps .ps__rail-y:focus,
+.ps .ps__rail-x.ps--clicking,
+.ps .ps__rail-y.ps--clicking {
+    opacity: 0 !important;
+}
+
+.rtl .navbar-vertical .navbar-nav .nav-link[data-bs-toggle="collapse"]:after {
+    margin-right: auto;
+    margin-left: unset;
+}
+
+.choices__inner:has(#choices-weight-unit) {
+    border-top-left-radius: 0.5rem !important;
+    border-bottom-left-radius: 0.5rem !important;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.input-group .form-control:not(:last-child) {
+    border-right: 1px !important;
+    border-left: 0px;
+    padding-left: 1px;
+}
+
+.input-group:not(.has-validation)> :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu),
+.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n + 3) {
+    border-top-right-radius: 0.5rem !important;
+    border-bottom-right-radius: 0.5rem !important;
+    border-top-left-radius: 0rem !important;
+    border-bottom-left-radius: 0rem !important;
+}

@@ -1,0 +1,8 @@
+{
+    "cSpell.words": ["Alyaseen", "SUPERADMIN"],
+    "i18n-ally.localesPaths": [
+        "lang",
+        "public/dashboard/js/plugins/tinymce/langs"
+    ],
+    "i18n-ally.keystyle": "nested"
+}
